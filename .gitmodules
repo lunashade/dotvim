@@ -1,0 +1,9 @@
+[submodule "pack/default/start/async.vim"]
+	path = pack/default/start/async.vim
+	url = https://github.com/prabirshrestha/async.vim
+[submodule "pack/default/start/vim-lsp"]
+	path = pack/default/start/vim-lsp
+	url = https://github.com/prabirshrestha/vim-lsp
+[submodule "pack/default/start/vim-lsp-settings"]
+	path = pack/default/start/vim-lsp-settings
+	url = https://github.com/mattn/vim-lsp-settings
