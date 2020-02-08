@@ -28,3 +28,9 @@
 [submodule "pack/default/start/vim-expand-region"]
 	path = pack/default/start/vim-expand-region
 	url = https://github.com/terryma/vim-expand-region
+[submodule "pack/default/start/asyncomplete.vim"]
+	path = pack/default/start/asyncomplete.vim
+	url = https://github.com/prabirshrestha/asyncomplete.vim
+[submodule "pack/default/start/asyncomplete-lsp.vim"]
+	path = pack/default/start/asyncomplete-lsp.vim
+	url = https://github.com/prabirshrestha/asyncomplete-lsp.vim
