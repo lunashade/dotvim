@@ -25,9 +25,6 @@
 [submodule "pack/default/start/vim-indent-guides"]
 	path = pack/default/start/vim-indent-guides
 	url = https://github.com/nathanaelkane/vim-indent-guides
-[submodule "pack/default/start/vim-expand-region"]
-	path = pack/default/start/vim-expand-region
-	url = https://github.com/terryma/vim-expand-region
 [submodule "pack/default/start/asyncomplete.vim"]
 	path = pack/default/start/asyncomplete.vim
 	url = https://github.com/prabirshrestha/asyncomplete.vim
