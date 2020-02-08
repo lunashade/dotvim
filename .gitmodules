@@ -13,3 +13,18 @@
 [submodule "pack/default/start/nerdtree"]
 	path = pack/default/start/nerdtree
 	url = https://github.com/scrooloose/nerdtree
+[submodule "pack/default/start/vim-gitgutter"]
+	path = pack/default/start/vim-gitgutter
+	url = https://github.com/airblade/vim-gitgutter
+[submodule "pack/default/start/vim-surround"]
+	path = pack/default/start/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "pack/default/start/vim-smartinput"]
+	path = pack/default/start/vim-smartinput
+	url = https://github.com/kana/vim-smartinput
+[submodule "pack/default/start/vim-indent-guides"]
+	path = pack/default/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "pack/default/start/vim-expand-region"]
+	path = pack/default/start/vim-expand-region
+	url = https://github.com/terryma/vim-expand-region
