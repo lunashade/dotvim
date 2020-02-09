@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 function main {
     path=${1:-$HOME}
