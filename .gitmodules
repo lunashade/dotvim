@@ -37,3 +37,6 @@
 [submodule "pack/default/start/vim-airline"]
 	path = pack/default/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/default/start/vim-airline-themes"]
+	path = pack/default/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
