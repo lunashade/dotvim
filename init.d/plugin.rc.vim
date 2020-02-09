@@ -40,6 +40,8 @@ nmap [Lsp]d <plug>(lsp-definition)
 nmap [Lsp]r <plug>(lsp-rename)
 nmap [Lsp]s <plug>(lsp-status)
 
+" airline
+let g:airline_theme='simple'
 " airline lsp
 " https://github.com/prabirshrestha/vim-lsp/pull/376
 let g:airline_section_warning = '%{lsp#get_buffer_diagnostics_counts()["warning"]}'
