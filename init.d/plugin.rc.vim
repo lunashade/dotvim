@@ -39,3 +39,8 @@ nmap [Lsp]f <plug>(lsp-document-format)
 nmap [Lsp]d <plug>(lsp-definition)
 nmap [Lsp]r <plug>(lsp-rename)
 nmap [Lsp]s <plug>(lsp-status)
+
+" airline lsp
+" https://github.com/prabirshrestha/vim-lsp/pull/376
+let g:airline_section_warning = '%{lsp#get_buffer_diagnostics_counts()["warning"]}'
+let g:airline_section_error = '%{lsp#get_buffer_diagnostics_counts()["error"]}'
