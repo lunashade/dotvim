@@ -34,3 +34,6 @@
 [submodule "pack/default/start/vim-expand-region"]
 	path = pack/default/start/vim-expand-region
 	url = https://github.com/landock/vim-expand-region
+[submodule "pack/default/start/vim-airline"]
+	path = pack/default/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
