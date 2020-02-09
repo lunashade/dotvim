@@ -1,4 +1,6 @@
 " Basic
+let mapleader="\<Space>"
+
 set number
 set nobackup
 set noswapfile
@@ -11,3 +13,5 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+
+filetype plugin indent on

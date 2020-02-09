@@ -28,3 +28,14 @@ let g:indent_guides_auto_colors = 0
 " expand-region
 vmap v <Plug>(expand_region_expand)
 vmap <C-v> <Plug>(expand_region_shrink)
+
+" Vim-lsp
+nnoremap [Lsp] <Nop>
+nmap <leader>a [Lsp]
+nmap [Lsp]i :LspInstallServer<CR>
+nmap [Lsp]j <plug>(lsp-next-error)
+nmap [Lsp]k <plug>(lsp-previous-error)
+nmap [Lsp]f <plug>(lsp-document-format)
+nmap [Lsp]d <plug>(lsp-definition)
+nmap [Lsp]r <plug>(lsp-rename)
+nmap [Lsp]s <plug>(lsp-status)
