@@ -1,10 +1,10 @@
 " Basic
 let mapleader="\<Space>"
 
+set nocompatible
 set number
 set nobackup
 set noswapfile
-syntax enable
 set list
 set nocompatible
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
@@ -13,5 +13,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
+set hlsearch!
 
+syntax enable
 filetype plugin indent on
