@@ -32,13 +32,17 @@ vmap <C-v> <Plug>(expand_region_shrink)
 " Vim-lsp
 nnoremap [Lsp] <Nop>
 nmap <leader>a [Lsp]
-nmap [Lsp]i :LspInstallServer<CR>
-nmap [Lsp]j <plug>(lsp-next-error)
-nmap [Lsp]k <plug>(lsp-previous-error)
-nmap [Lsp]f <plug>(lsp-document-format)
-nmap [Lsp]d <plug>(lsp-definition)
-nmap [Lsp]r <plug>(lsp-rename)
-nmap [Lsp]s <plug>(lsp-status)
+nmap <silent> [Lsp]i :LspInstallServer<CR>
+nmap <silent> [Lsp]j <plug>(lsp-next-diagnostic)
+nmap <silent> [Lsp]k <plug>(lsp-previous-diagnostic)
+nmap <silent> [Lsp]f <plug>(lsp-document-format)
+nmap <silent> [Lsp]d <plug>(lsp-definition)
+nmap <silent> [Lsp]r <plug>(lsp-rename)
+nmap <silent> [Lsp]s <plug>(lsp-status)
+
+let g:lsp_signs_enabled = 1
+let g:lsp_diagnostics_echo_cursor = 1
+
 
 " airline
 let g:airline_theme='simple'
