@@ -43,3 +43,6 @@
 [submodule "pack/default/start/vim-lsp-icons"]
 	path = pack/default/start/vim-lsp-icons
 	url = https://github.com/mattn/vim-lsp-icons
+[submodule "pack/default/start/vim-repeat"]
+	path = pack/default/start/vim-repeat
+	url = https://github.com/tpope/vim-repeat
