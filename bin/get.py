@@ -19,9 +19,12 @@ def main():
         url = "https://" + url
 
     package = url.rsplit("/", 1)[-1]
-    subprocess.run(
-        shlex.split(
-            "git submodule add --force {url} pack/default/start/{package} ".format(url=url, package=package)))
+    addcmd = ("git submodule add --force "
+              "{url} pack/default/start/{package}".format(url=url, package=package))
+    subprocess.run(shlex.split(addcmd))
+
+    commitcmd = "git commit -m '[auto] Add package: {package}'".format(package=package)
+    subprocess.run(shlex.split(commitcmd))
 
 
 if __name__ == "__main__":
