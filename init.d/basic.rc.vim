@@ -1,23 +1,32 @@
 " Basic
+call resolve($MYVIMRC)
+
 let mapleader="\<Space>"
 
 set nocompatible
 set number
 set nobackup
 set noswapfile
+set autoread
+set hidden
+set mouse=a
+" list
+set encoding=utf-8
 set list
-set nocompatible
 set listchars=tab:»-,trail:-,extends:»,precedes:«,nbsp:%,eol:↲
+" search
+set wrapscan
 set incsearch
+set hlsearch!
+
+set backspace=indent,eol,start
+set virtualedit=onemore
+
+" indent
 set tabstop=4
 set shiftwidth=4
 set expandtab
 set smartindent
-set hlsearch!
-set autoread
-set hidden
-set backspace=indent,eol,start
-set virtualedit=onemore
 
 syntax enable
 filetype plugin indent on
