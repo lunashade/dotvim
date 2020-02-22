@@ -48,5 +48,5 @@ let g:lsp_diagnostics_echo_cursor = 1
 let g:airline_theme='simple'
 " airline lsp
 " https://github.com/prabirshrestha/vim-lsp/pull/376
-let g:airline_section_warning = '%{lsp#get_buffer_diagnostics_counts()["warning"]}'
-let g:airline_section_error = '%{lsp#get_buffer_diagnostics_counts()["error"]}'
+let g:airline_section_warning = 'W:%{lsp#get_buffer_diagnostics_counts()["warning"]}'
+let g:airline_section_error = 'E:%{lsp#get_buffer_diagnostics_counts()["error"]}'
