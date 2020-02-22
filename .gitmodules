@@ -49,3 +49,6 @@
 [submodule "pack/default/start/vim-precious"]
 	path = pack/default/start/vim-precious
 	url = https://github.com/osyo-manga/vim-precious
+[submodule "pack/default/start/context_filetype.vim"]
+	path = pack/default/start/context_filetype.vim
+	url = https://github.com/Shougo/context_filetype.vim
