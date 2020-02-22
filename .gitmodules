@@ -52,3 +52,6 @@
 [submodule "pack/default/start/context_filetype.vim"]
 	path = pack/default/start/context_filetype.vim
 	url = https://github.com/Shougo/context_filetype.vim
+[submodule "pack/default/start/vim-yaml"]
+	path = pack/default/start/vim-yaml
+	url = https://github.com/stephpy/vim-yaml
