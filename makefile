@@ -1,5 +1,8 @@
 url=""
 
+.PHONY: all deploy get unget update upgrade
+all: update deploy
+
 deploy:
 	bin/deploy.sh
 
