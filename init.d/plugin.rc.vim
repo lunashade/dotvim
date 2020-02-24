@@ -39,6 +39,8 @@ nmap <silent> [Lsp]f <plug>(lsp-document-format)
 nmap <silent> [Lsp]d <plug>(lsp-definition)
 nmap <silent> [Lsp]r <plug>(lsp-rename)
 nmap <silent> [Lsp]s <plug>(lsp-status)
+nmap <silent> [Lsp]h <plug>(lsp-hover)
+nmap <silent> [Lsp]c <plug>(lsp-preview-close)
 
 let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
