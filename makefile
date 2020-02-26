@@ -13,7 +13,7 @@ unget:
 	bin/unget.sh ${url}
 
 update:
-	@git pull
+	@git pull --rebase
 	@git submodule init
 	@git submodule update
 
