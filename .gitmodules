@@ -55,3 +55,6 @@
 [submodule "pack/default/start/vim-commentary"]
 	path = pack/default/start/vim-commentary
 	url = https://github.com/tpope/vim-commentary
+[submodule "pack/default/start/vim-goimports"]
+	path = pack/default/start/vim-goimports
+	url = https://github.com/mattn/vim-goimports
