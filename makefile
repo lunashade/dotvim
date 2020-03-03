@@ -22,3 +22,6 @@ upgrade:
 	@git submodule foreach git pull origin master
 	@git add pack/default
 	@git commit -m "[auto] Upgrade packages"
+
+clean:
+	git clean -ffd
