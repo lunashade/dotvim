@@ -28,6 +28,10 @@ set shiftwidth=4
 set expandtab
 set smartindent
 
+" wild
+set wildmenu
+set wildmode=full
+
 syntax enable
 filetype plugin indent on
 
