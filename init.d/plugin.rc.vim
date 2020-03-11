@@ -52,3 +52,7 @@ let g:airline_theme='simple'
 " https://github.com/prabirshrestha/vim-lsp/pull/376
 let g:airline_section_warning = 'W:%{lsp#get_buffer_diagnostics_counts()["warning"]}'
 let g:airline_section_error = 'E:%{lsp#get_buffer_diagnostics_counts()["error"]}'
+
+" lexima
+let g:lexima_enable_newline_rules = 0
+let g:lexima_enable_endwise_rules = 0
