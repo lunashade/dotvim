@@ -58,3 +58,6 @@
 [submodule "pack/default/start/lexima.vim"]
 	path = pack/default/start/lexima.vim
 	url = https://github.com/cohama/lexima.vim
+[submodule "pack/default/start/sonictemplate-vim"]
+	path = pack/default/start/sonictemplate-vim
+	url = https://github.com/mattn/sonictemplate-vim
