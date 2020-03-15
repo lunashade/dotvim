@@ -56,3 +56,9 @@ let g:airline_section_error = 'E:%{lsp#get_buffer_diagnostics_counts()["error"]}
 " lexima
 let g:lexima_enable_newline_rules = 1
 let g:lexima_enable_endwise_rules = 0
+
+" sonictemplate
+let g:sonictemplate_vim_template_dir = expand('~/.vim/sonictemplate')
+nnoremap [Sonic] <Nop>
+nmap <leader>s [Sonic]
+nmap <silent> [Sonic]p <C-Y><C-B>
