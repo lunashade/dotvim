@@ -3,7 +3,7 @@
 there="$(dirname $0)"
 
 function deploy {
-    ln -sfvn "${PWD}" "${HOME}/.vim"
+	ln -sfvn "$(realpath $(pwd))" "${HOME}/.vim"
 }
 
 function main {
