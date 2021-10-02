@@ -19,7 +19,7 @@ update:
 
 upgrade:
 	@git submodule foreach git checkout master
-	@git submodule foreach git pull origin master
+	@git submodule foreach git pull
 	@git add pack/default
 	@git commit -m "[auto] Upgrade packages"
 
