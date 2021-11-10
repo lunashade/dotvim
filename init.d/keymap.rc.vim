@@ -30,3 +30,8 @@ nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq ZZ
 nnoremap sQ :<C-u>bd<CR>
+
+" autocomplete
+inoremap <expr><TAB>  pumvisible() ? "<C-n><C-y>" : "<TAB>"
+inoremap <expr><CR>  pumvisible() ? "<C-y>" : "<CR>"
+set completeopt+=menuone
