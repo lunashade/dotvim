@@ -1,4 +1,5 @@
 #!/bin/bash
+# install python-lsp-black
 set -e
 
 if [[ "$XDG_DATA_HOME" != ""  ]]; then
