@@ -20,3 +20,8 @@ Plug 'stephpy/vim-yaml'
 Plug 'tpope/vim-commentary'
 Plug 'cohama/lexima.vim'
 call plug#end()
+
+" Run PlugInstall if there are missing plugins
+autocmd VimEnter * if len(filter(values(g:plugs), '!isdirectory(v:val.dir)'))
+  \| PlugInstall --sync
+\| endif
