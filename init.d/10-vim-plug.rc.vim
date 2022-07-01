@@ -16,7 +16,14 @@ Plug 'osyo-manga/vim-precious'
 Plug 'Shougo/context_filetype.vim'
 Plug 'tpope/vim-commentary'
 Plug 'cohama/lexima.vim'
-Plug 'scrooloose/nerdtree'
+" filer
+Plug 'lambdalisue/fern.vim'
+Plug 'lambdalisue/fern-hijack.vim'
+Plug 'lambdalisue/fern-git-status.vim'
+Plug 'yuki-yano/fern-preview.vim'
+" fzf
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
 " Style
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'

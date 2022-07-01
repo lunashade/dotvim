@@ -18,8 +18,22 @@ nnoremap [Fugitive]c :Gcommit<CR>
 nnoremap [Fugitive]s :Gstatus<CR>
 nnoremap [Fugitive]d :Gdiff<CR>
 
-" NERDTree
-nnoremap <silent><C-e> :NERDTreeToggle<CR>
+" fern.vim
+let g:fern#default_hidden=1
+nnoremap <silent><C-e> :<C-u>Fern . -reveal=% -drawer -toggle<CR>
+nnoremap <silent> <leader>e :<C-u>Fern .<CR>
+" 公式リポジトリを参考にキーマップを追加
+function! s:init_fern() abort
+  nmap <silent> <buffer> p     <Plug>(fern-action-preview:toggle)
+  nmap <silent> <buffer> <C-p> <Plug>(fern-action-preview:auto:toggle)
+  nmap <silent> <buffer> <C-d> <Plug>(fern-action-preview:scroll:down:half)
+  nmap <silent> <buffer> <C-u> <Plug>(fern-action-preview:scroll:up:half)
+endfunction
+
+augroup fern-settings
+  autocmd!
+  autocmd FileType fern call s:init_fern()
+augroup END
 
 " Indent Guide
 let g:indent_guides_enable_on_vim_startup = 1
@@ -45,6 +59,16 @@ nmap <silent> [Lsp]c <plug>(lsp-preview-close)
 let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
 
+" fzf
+fun! FzfOmniFiles()
+  let is_git = system('git status')
+  if v:shell_error
+    :Files
+  else
+    :GFiles
+  endif
+endfun
+nnoremap <silent> <leader>s :call FzfOmniFiles()<CR>
 
 " airline
 let g:airline_theme='simple'
