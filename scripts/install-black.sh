@@ -2,11 +2,7 @@
 # install python-lsp-black
 set -e
 
-if [[ "$XDG_DATA_HOME" != ""  ]]; then
-    DATA_DIR="${XDG_DATA_HOME}/vim-lsp-settings"
-else
-    DATA_DIR="${HOME}/.local/share/vim-lsp-settings"
-fi
+DATA_DIR="${XDG_DATA_HOME:-${HOME}/.local/share}/vim-lsp-settings"
 PYLSP_DIR="${DATA_DIR}/servers/pylsp-all"
 if [[ ! -d "$PYLSP_DIR" ]]; then
     echo "pylsp-all not installed in: $PYLSP_DIR"
