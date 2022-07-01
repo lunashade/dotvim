@@ -16,7 +16,7 @@ Plug 'osyo-manga/vim-precious'
 Plug 'Shougo/context_filetype.vim'
 Plug 'tpope/vim-commentary'
 Plug 'cohama/lexima.vim'
-Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'scrooloose/nerdtree'
 " Style
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
