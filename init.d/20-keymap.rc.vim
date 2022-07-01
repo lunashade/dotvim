@@ -3,6 +3,9 @@
 " ========================================
 nnoremap j gj
 nnoremap k gk
+nnoremap gj j
+nnoremap gk k
+nnoremap Q gq
 inoremap jj <ESC>
 
 " s-* keymappings.
