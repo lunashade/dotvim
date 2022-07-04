@@ -2,6 +2,6 @@
 
 simple ~/.vim using vim-plug
 
-## Usage
+## install python-lsp-black
 
-1. git clone this repo.
+after you install pylsp-all, run scripts/install-black.sh
