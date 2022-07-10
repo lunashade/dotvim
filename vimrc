@@ -1,3 +1,7 @@
+unlet! skip_defaults_vim
+source $VIMRUNTIME/defaults.vim
+
+" some WSL issue
 set t_u7=
 set t_RV=
 
