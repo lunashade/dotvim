@@ -38,6 +38,10 @@ nnoremap sp gT
 " === quits ===
 nnoremap sq ZZ
 nnoremap sQ :<C-u>bd<CR>
+" === terminal ===
+nnoremap su :<C-u>bo terminal<CR>
+set termwinkey=<A-w>
+tnoremap <silent> <Esc> <A-w><S-n>
 
 " autocomplete
 inoremap <expr><TAB>  pumvisible() ? "<C-n><C-y>" : "<TAB>"
