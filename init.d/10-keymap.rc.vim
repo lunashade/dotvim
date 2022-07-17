@@ -11,26 +11,31 @@ inoremap jj <ESC>
 " s-* keymappings.
 " https://qiita.com/tekkoc/items/98adcadfa4bdc8b5a6ca
 nnoremap s <Nop>
+" === windows ===
+nnoremap sh <C-w>h
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
-nnoremap sh <C-w>h
+
+nnoremap sH <C-w>H
 nnoremap sJ <C-w>J
 nnoremap sK <C-w>K
 nnoremap sL <C-w>L
-nnoremap sH <C-w>H
-nnoremap sn gt
-nnoremap sp gT
+" split
+nnoremap ss <C-w>s
+nnoremap sv <C-w>v
+" rotate
 nnoremap sr <C-w>r
 nnoremap s= <C-w>=
 nnoremap sw <C-w>w
-nnoremap so <C-w>_<C-w>|
-nnoremap sO <C-w>=
+" buffer
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
+" === tabs ===
 nnoremap st :<C-u>tabnew<CR>
-nnoremap ss :<C-u>sp<CR>
-nnoremap sv :<C-u>vs<CR>
+nnoremap sn gt
+nnoremap sp gT
+" === quits ===
 nnoremap sq ZZ
 nnoremap sQ :<C-u>bd<CR>
 
