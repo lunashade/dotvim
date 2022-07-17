@@ -28,7 +28,9 @@ Plug 'junegunn/fzf.vim'
 Plug 'morhetz/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+" filetype
 Plug 'stephpy/vim-yaml'
+Plug 'ziglang/zig.vim'
 call plug#end()
 
 " Run PlugInstall if there are missing plugins
