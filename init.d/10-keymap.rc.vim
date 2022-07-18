@@ -21,13 +21,15 @@ nnoremap sH <C-w>H
 nnoremap sJ <C-w>J
 nnoremap sK <C-w>K
 nnoremap sL <C-w>L
+
+nnoremap sw <C-w>w
 " split
 nnoremap ss <C-w>s
 nnoremap sv <C-w>v
-" rotate
+" edit windows
+nnoremap so <C-w>o
 nnoremap sr <C-w>r
 nnoremap s= <C-w>=
-nnoremap sw <C-w>w
 " buffer
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
