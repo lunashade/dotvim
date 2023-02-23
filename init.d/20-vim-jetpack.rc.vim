@@ -1,6 +1,5 @@
 packadd vim-jetpack
 call jetpack#begin()
-Jetpack 'tani/vim-jetpack', {'opt': 1}
 " LSP
 Jetpack 'prabirshrestha/async.vim'
 Jetpack 'prabirshrestha/asyncomplete.vim'
