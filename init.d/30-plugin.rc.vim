@@ -1,7 +1,11 @@
 " Color
 set t_Co=256
 set background=dark
-colorscheme gruvbox
+try
+    colorscheme gruvbox
+catch /^Vim\%((\a\+)\)\=:E185/
+    " deal with it
+endtry
 
 " GitGutter
 nnoremap [Gutter] <Nop>
