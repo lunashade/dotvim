@@ -62,26 +62,7 @@ nmap <silent> [Lsp]c <plug>(lsp-preview-close)
 
 let g:lsp_signs_enabled = 1
 let g:lsp_diagnostics_echo_cursor = 1
-
-let g:lsp_settings = {
-\ 'pylsp-all': {
-\   'workspace_config': {
-\     'pylsp': {
-\       'configurationSources': ['flake8'],
-\       'plugins': {
-\         'flake8': {'enabled': 1},
-\         'pyflakes': {'enabled': 0},
-\         'pycodestyle': {'enabled': 0},
-\         'mccabe': {'enabled': 0},
-\         'black': {
-\           'enabled': 1 ,
-\           'line_length': 119
-\         },
-\       }
-\     }
-\   }
-\ }
-\}
+let g:lsp_settings_global_settings_dir = $HOME . "/.vim/lsp-settings/"
 
 " fzf
 fun! FzfOmniFiles()
